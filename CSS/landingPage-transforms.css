@@ -1,0 +1,56 @@
+.ci {
+    transition: transform 1s;
+    border-radius: 5px;
+    animation-name: anime;
+    animation-duration: 1s;
+}
+
+.ci:hover {
+    transform: scale(1.2);
+    background-color: yellow;
+    font-size: 1.2;
+  
+    
+
+}
+
+@keyframes anime:hover {
+       0% {
+         font-size: 5px;
+
+       }
+       50% {
+           font-size: 10px;
+       }
+
+       85% {
+           font-size: 26px;
+       }
+}
+
+.am {
+    transition: transform 1s;
+    border-radius: 5px;
+    animation-name: anime;
+    animation-duration: 1s;
+
+}
+.am:hover {
+    transform: scale(1.2);
+    background-color: yellow;
+    font-size: 1.2;
+}
+
+.pp {
+    transition: transform 1s;
+    border-radius: 5px;
+    animation-name: anime;
+    animation-duration: 1s;
+
+}
+
+.pp:hover {
+    transform: scale(1.2);
+    background-color: yellow;
+    font-size: 1.2;
+}
